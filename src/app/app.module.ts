@@ -3,27 +3,27 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { DachboardComponent } from './components/dachboard/dachboard.component';
-import { UserComponent } from './components/user/user.component';
-import { CourseComponent } from './components/course/course.component';
-import { ArticleComponent } from './components/article/article.component';
-import { AddUserComponent } from './components/add-user/add-user.component';
-import { AddArticleComponent } from './components/add-article/add-article.component';
-import { AddCourseComponent } from './components/add-course/add-course.component';
-import { AdminProfileComponent } from './components/admin-profile/admin-profile.component';
-import { LoginComponent } from './components/login/login.component';
-import { MenuComponent } from './components/menu/menu.component';
-import { EditArticleComponent } from './components/edit-article/edit-article.component';
-import { EditUserComponent } from './components/edit-user/edit-user.component';
-import { EditCourseComponent } from './components/edit-course/edit-course.component';
-import { AddExamComponent } from './components/add-exam/add-exam.component';
-import { EditExamComponent } from './components/edit-exam/edit-exam.component';
-import { ExamComponent } from './components/exam/exam.component';
+import { DachboardComponent } from './components/admin/dachboard/dachboard.component';
+import { UserComponent } from './components/admin/user/user.component';
+import { CourseComponent } from './components/admin/course/course.component';
+import { ArticleComponent } from './components/admin/article/article.component';
+import { AddUserComponent } from './components/admin/user/add-user/add-user.component';
+import { AddArticleComponent } from './components/admin/article/add-article/add-article.component';
+import { AddCourseComponent } from './components/admin/course/add-course/add-course.component';
+import { AdminProfileComponent } from './components/admin/admin-profile/admin-profile.component';
+import { LoginComponent } from './components/admin/login/login.component';
+import { MenuComponent } from './components/admin/menu/menu.component';
+import { EditArticleComponent } from './components/admin/article/edit-article/edit-article.component';
+import { EditUserComponent } from './components/admin/user/edit-user/edit-user.component';
+import { EditCourseComponent } from './components/admin/course/edit-course/edit-course.component';
+import { AddExamComponent } from './components/admin/exam/add-exam/add-exam.component';
+import { EditExamComponent } from './components/admin/exam/edit-exam/edit-exam.component';
+import { ExamComponent } from './components/admin/exam/exam.component';
 import { AcceuilComponent } from './components/etudiant/acceuil/acceuil.component';
 import { QuiSuisJeComponent } from './components/etudiant/qui-suis-je/qui-suis-je.component';
 import { ContactComponent } from './components/etudiant/contact/contact.component';
 import { ForumComponent } from './components/etudiant/forum/forum.component';
-import { RegisterComponent } from './components/shared/register/register.component';
+// import { RegisterComponent } from './components/shared/register/register.component';
 import { ArticlesComponent } from './components/etudiant/articles/articles.component';
 import { ArticlesDetailsComponent } from './components/etudiant/articles-details/articles-details.component';
 import { HeaderComponent } from './components/etudiant/header/header.component';
@@ -58,7 +58,7 @@ import { FormationOnlineComponent } from './components/etudiant/formation-online
     QuiSuisJeComponent,
     ContactComponent,
     ForumComponent,
-    RegisterComponent,
+    // RegisterComponent,
     ArticlesComponent,
     ArticlesDetailsComponent,
     HeaderComponent,
