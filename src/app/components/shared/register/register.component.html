@@ -6,9 +6,10 @@
                 <p>L'inscription administrative est obligatoire, annuelle et personnelle.</p>
                 <div class="semi-deta eve-deta">
                     <ul>
-                        <li>DATE:<span>Mars 07, 2022</span></li>
-                        <li>Time:<span>02:00 AM GMT</span></li>
-                        <li>Location:<span>Oujda, Maroc</span></li>
+                        <li>DATE:<span>{{today | date:'fullDate'}}</span></li>
+                        <li>Time:<span>{{today | date:'longTime'}}</span></li>
+                        <li>Location:<span>{{City}}, {{Country}}</span></li>
+                        
                     </ul>
                 </div>
             </div>

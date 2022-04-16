@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -23,7 +24,7 @@ import { AcceuilComponent } from './components/etudiant/acceuil/acceuil.componen
 import { QuiSuisJeComponent } from './components/etudiant/qui-suis-je/qui-suis-je.component';
 import { ContactComponent } from './components/etudiant/contact/contact.component';
 import { ForumComponent } from './components/etudiant/forum/forum.component';
-// import { RegisterComponent } from './components/shared/register/register.component';
+import { RegisterComponent } from './components/shared/register/register.component';
 import { ArticlesComponent } from './components/etudiant/articles/articles.component';
 import { ArticlesDetailsComponent } from './components/etudiant/articles-details/articles-details.component';
 import { HeaderComponent } from './components/etudiant/header/header.component';
@@ -34,6 +35,8 @@ import { CertificatComponent } from './components/etudiant/certificat/certificat
 import { LessonsComponent } from './components/etudiant/lessons/lessons.component';
 import { MotDePasseComponent } from './components/etudiant/mot-de-passe/mot-de-passe.component';
 import { FormationOnlineComponent } from './components/etudiant/formation-online/formation-online.component';
+import { FaqComponent } from './components/etudiant/faq/faq.component';
+import { MenuBarComponent } from './components/admin/menu-bar/menu-bar.component';
 
 @NgModule({
   declarations: [
@@ -58,7 +61,7 @@ import { FormationOnlineComponent } from './components/etudiant/formation-online
     QuiSuisJeComponent,
     ContactComponent,
     ForumComponent,
-    // RegisterComponent,
+    RegisterComponent,
     ArticlesComponent,
     ArticlesDetailsComponent,
     HeaderComponent,
@@ -68,9 +71,12 @@ import { FormationOnlineComponent } from './components/etudiant/formation-online
     CertificatComponent,
     LessonsComponent,
     MotDePasseComponent,
-    FormationOnlineComponent
+    FormationOnlineComponent,
+    FaqComponent,
+    MenuBarComponent
   ],
   imports: [
+    HttpClientModule,
     BrowserModule,
     AppRoutingModule
   ],

@@ -5166,7 +5166,8 @@ html {
     width: 100%;
 }
 .atab-menu {
-    display: inline-block;
+    margin-top: 15px;
+    display: block;
     cursor: pointer;
 }
 .btn-close-menu {
