@@ -26,6 +26,12 @@ import { QuiSuisJeComponent } from './components/etudiant/qui-suis-je/qui-suis-j
 import { RegisterComponent } from './components/shared/register/register.component';
 import { ExamComponent } from './components/admin/exam/exam.component';
 import { AddExamComponent } from './components/admin/exam/add-exam/add-exam.component';
+import { EditUserComponent } from './components/admin/user/edit-user/edit-user.component';
+import { EditCourseComponent } from './components/admin/course/edit-course/edit-course.component';
+import { EditArticleComponent } from './components/admin/article/edit-article/edit-article.component';
+import { EditExamComponent } from './components/admin/exam/edit-exam/edit-exam.component';
+import { BlogComponent } from './components/etudiant/blog/blog.component';
+import { BlogDetailsComponent } from './components/etudiant/blog-details/blog-details.component';
 
 const routes: Routes = [
    { path: 'Dashboard', component: DachboardComponent},
@@ -34,10 +40,14 @@ const routes: Routes = [
    { path: 'Article', component: ArticleComponent},
    { path: 'Menu', component: MenuComponent},
    { path: 'Add-User', component: AddUserComponent},
+   { path: 'Edit-User', component: EditUserComponent},
    { path: 'Add-Course', component: AddCourseComponent},
+   { path: 'Edit-Course', component: EditCourseComponent},
    { path: 'Add-Article', component: AddArticleComponent},
+   { path: 'Edit-Article', component: EditArticleComponent},
    { path: 'Exam', component: ExamComponent},
    { path: 'Add-Exam', component: AddExamComponent},
+   { path: 'Edit-Exam', component: EditExamComponent},
    { path: 'Admin-Profile', component: AdminProfileComponent},
    { path: 'Login-Admin', component: LoginComponent},
    { path: 'Acceuil', component: AcceuilComponent, data: { title: 'Home' }},
@@ -53,6 +63,8 @@ const routes: Routes = [
    {path: 'Mot-de-passe', component: MotDePasseComponent},
    {path: 'Profil', component: ProfilComponent},
    {path: 'Qui-suis-je', component: QuiSuisJeComponent},
+   {path: 'Blog', component: BlogComponent},
+   {path: 'Blog-Details', component: BlogDetailsComponent},
    {path: 'Register', component: RegisterComponent},
 
 

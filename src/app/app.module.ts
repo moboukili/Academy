@@ -37,6 +37,8 @@ import { MotDePasseComponent } from './components/etudiant/mot-de-passe/mot-de-p
 import { FormationOnlineComponent } from './components/etudiant/formation-online/formation-online.component';
 import { FaqComponent } from './components/etudiant/faq/faq.component';
 import { MenuBarComponent } from './components/admin/menu-bar/menu-bar.component';
+import { BlogComponent } from './components/etudiant/blog/blog.component';
+import { BlogDetailsComponent } from './components/etudiant/blog-details/blog-details.component';
 
 @NgModule({
   declarations: [
@@ -73,7 +75,9 @@ import { MenuBarComponent } from './components/admin/menu-bar/menu-bar.component
     MotDePasseComponent,
     FormationOnlineComponent,
     FaqComponent,
-    MenuBarComponent
+    MenuBarComponent,
+    BlogComponent,
+    BlogDetailsComponent
   ],
   imports: [
     HttpClientModule,
