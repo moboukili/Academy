@@ -1,4 +1,6 @@
-import { NgModule } from '@angular/core';
+import { NgModule , LOCALE_ID} from '@angular/core';
+import localFr from '@angular/common/locales/fr';
+import { registerLocaleData } from '@angular/common';
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http';
 
@@ -40,6 +42,7 @@ import { MenuBarComponent } from './components/admin/menu-bar/menu-bar.component
 import { BlogComponent } from './components/etudiant/blog/blog.component';
 import { BlogDetailsComponent } from './components/etudiant/blog-details/blog-details.component';
 
+registerLocaleData(localFr);
 @NgModule({
   declarations: [
     AppComponent,
@@ -84,7 +87,9 @@ import { BlogDetailsComponent } from './components/etudiant/blog-details/blog-de
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [
+    { provide : LOCALE_ID, useValue: 'fr-FR' },
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

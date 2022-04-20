@@ -590,6 +590,43 @@
      font-size:13px;
      color: #ffffff;
 }
+.wed-hom-footer .input {
+    width: 80%;
+    padding-right: 30px;
+    padding-left: 20px;
+    border: 1px solid #dfdfdf;
+    box-sizing: border-box;
+    height: 40px;
+    border-radius: 2px;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.wed-hom-footer .input:focus {
+    color: #fff;
+    border-color: #F8BB37;
+    outline: 0;
+    box-shadow: none
+}
+.glyph{
+    position: relative;
+    left: 9px;
+    pointer-events: none;
+    color: #fff;
+  }
+.wed-hom-footer .submit {
+    margin-bottom: -15px;
+    margin-left: -18px;
+    height: 40px !important;
+    width: 50px;
+    background: #F8BB37;
+    padding: 2px 10px;
+    font-weight: 600;
+    border: 0;
+    -webkit-appearance: none;
+    margin-top: 1px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
  .wed-foot-link{
      border-top: 1px groove #6a83a0;
      border-bottom: 1px groove #6a83a0;
@@ -2643,8 +2680,16 @@
      font-size: 24px;
      margin-bottom: 20px;
 }
+.log-in-pop-right img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    width: 50%;
+}
  .log-in-pop-right p {
     text-align: center;
+    font-weight: 600;
 }
  .log-in-pop-right a {
      color: #333;
@@ -2673,6 +2718,39 @@
      box-sizing: border-box;
      height: 70px;
      border-radius: 2px;
+}
+.log-in-pop-right .form {
+    margin : 30px 0 ;
+}
+.log-in-pop-right .input {
+    width: 75%;
+    padding-right: 30px;
+    padding-left: 20px;
+    border: 1px solid #dfdfdf;
+     box-sizing: border-box;
+     height: 40px;
+     border-radius: 2px;
+     font-size: 14px;
+     margin-bottom: 5px;
+}
+.log-in-pop-right .input:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #F8BB37;
+    outline: 0;
+    box-shadow: none
+}
+.log-in-pop-right .submit {
+    margin-bottom: 5px;
+    margin-left: -8px;
+    height: 40px !important;
+    width: 100px;
+    background: #F8BB37;
+    padding: 2px 10px;
+    font-weight: 600;
+    color: white;
+    border: 0;
+    -webkit-appearance: none;
 }
  .log-in-pop-right form input[type="submit"] {
      color: #fff;

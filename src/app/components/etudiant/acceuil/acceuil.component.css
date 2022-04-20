@@ -84,3 +84,7 @@
       -webkit-transform: rotate(45deg);
       transform: rotate(45deg);
   }
+  .sh-span {
+    color: #ffffff;
+    margin-left: 5px;
+}

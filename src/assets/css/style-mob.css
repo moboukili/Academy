@@ -146,6 +146,12 @@
      .modal-open .modal {
          width: 100%;
     }
+    .log-in-pop-right .input {
+        width: 60%;
+    }
+    .log-in-pop-right .submit {
+        width: 90px;
+    }
      .carousel-caption {
          right: 20%;
          left: 20%;
